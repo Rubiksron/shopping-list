@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping List</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+
+      <div class="row instructions">
+          <div class="col-xs-2"></div>
+      	  <h1 class="col-xs-8"> Create a shopping list.</h1>
+           <div class="col-xs-2"></div>
+      </div>
+
+      <div class="new-item">
+             <input type="text" id="new-item" >
+      		  <button id="submit" type="submit" class="btn btn-lg btn-success ">Add to List</button>
+             <div class="error"></div>
+
+      </div>
+
+      <section class="main">
+
+      		<div class="list">
+      			<ul class="list-items">
+      			    <span class="box"></span>
+      			</ul>
+      		</div>
+
+      </section>
+      </div>
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
